@@ -10,6 +10,7 @@ import { courseData } from './data/courseData';
 function App() {
   return (
     <div className="App">
+      <SpeedInsights />
       <Header />
       <section className="navbar-section">
         <NavBar />
