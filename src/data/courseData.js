@@ -7,28 +7,28 @@ export const courseData = {
         key: "handout",
         title: "Course Handout",
         content: [
-          { name: "Course Overview", fileUrl: "/assets/daa/handout/overview.pdf" }
+          { name: "Course Overview", fileUrl: "https://drive.google.com/file/d/1aoLGZZpEfVsAwIsJou2jVlw7XyR24H5-/view" }
         ]
       },
       {
         key: "notes",
         title: "PDFs, PPTs, and Notes",
         content: [
-          { name: "Unit 1 Notes", fileUrl: "/assets/daa/notes/unit1.pdf" }
+          { name: "Units", fileUrl: "https://drive.google.com/drive/folders/1NKSPKcjvkvPLRrkBVpGjrIX-6had53kl" }
         ]
       },
       {
         key: "pyqs",
         title: "PYQs",
         content: [
-          // Add PYQs content here
+          { name: "Questions", fileUrl: "https://drive.google.com/drive/folders/1tbnXl8ewNM2YYZeUwa-SbsQHBPdOlpf2" }
         ]
       },
       {
         key: "lectures",
         title: "Lectures",
         content: [
-          { name: "Lecture 1", fileUrl: "/assets/daa/lectures/lecture1.mp4" }
+          { name: "Lectures", fileUrl: "https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O" }
         ]
       }
     ]
@@ -48,7 +48,7 @@ export const courseData = {
         key: "notes",
         title: "PDFs, PPTs, and Notes",
         content: [
-          { name: "Unit 1", fileUrl: "/assets/cn/notes/unit1.pdf" }
+          { name: "Unit", fileUrl: "https://drive.google.com/drive/folders/1AmRP7n4qGN2jaBZAi2uJpZ1GezKQcGKA" }
         ]
       },
       {
@@ -62,7 +62,7 @@ export const courseData = {
         key: "lectures",
         title: "Lectures",
         content: [
-          { name: "Lecture 1", fileUrl: "/assets/cn/lectures/lecture1.mp4" }
+          { name: "Lecture 1", fileUrl: "https://www.youtube.com/watch?v=JFF2vJaN0Cw&list=PLxCzCOWd7aiGFBD2-2joCpWOLUrDLvVV_" }
         ]
       }
     ]
@@ -82,7 +82,7 @@ export const courseData = {
         key: "notes",
         title: "PDFs, PPTs, and Notes",
         content: [
-          { name: "Unit 1", fileUrl: "/assets/se/notes/unit1.pdf" }
+          { name: "Unit 1", fileUrl: "https://drive.google.com/drive/folders/1O543F-lwxdME4G_N8qHSxrwiT5NP7y9r" }
         ]
       },
       {
@@ -96,7 +96,7 @@ export const courseData = {
         key: "lectures",
         title: "Lectures",
         content: [
-          { name: "Lecture 1", fileUrl: "/assets/se/lectures/lecture1.mp4" }
+          { name: "Lecture 1", fileUrl: "https://www.youtube.com/watch?v=uJpQlyT_CK4&list=PLxCzCOWd7aiEed7SKZBnC6ypFDWYLRvB2" }
         ]
       }
     ]
@@ -252,14 +252,14 @@ export const courseData = {
         key: "notes",
         title: "PDFs, PPTs, and Notes",
         content: [
-          { name: "Unit 1", fileUrl: "/assets/ee/notes/unit1.pdf" }
+          { name: "Unit 1", fileUrl: "https://drive.google.com/drive/folders/1y6mWKFbv7tbhgcGyS5-4OZVijJcwOP1M" }
         ]
       },
       {
         key: "pyqs",
         title: "PYQs",
         content: [
-          // Add PYQs content here
+          { name: "Questions", fileUrl: "https://drive.google.com/drive/folders/1Jng7wBO9IyN75vJTGXT3y1zh9LdHhehj" }
         ]
       },
       {
