@@ -1,5 +1,6 @@
 // src/App.js
 import React from 'react';
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import './App.css'; // Import the CSS file
 import Header from './components/Header';
 import NavBar from './components/NavBar';
