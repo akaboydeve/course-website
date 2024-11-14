@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+import './App.css'; // Import the CSS file
+import Header from './components/Header';
+import NavBar from './components/NavBar';
+import Subject from './components/Subject';
+import { courseData } from './data/courseData';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <section className="navbar-section">
+        <NavBar />
+      </section>
+      <section className="body-section">
+        <div className="content">
+          {Object.keys(courseData).map(subjectId => (
+            <Subject key={subjectId} id={subjectId} />
+          ))}
+        </div>
+      </section>
     </div>
   );
 }
