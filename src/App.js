@@ -1,6 +1,7 @@
 // src/App.js
 import React from 'react';
 import { SpeedInsights } from "@vercel/speed-insights/react";
+import {Helmet} from "react-helmet";
 import './App.css'; // Import the CSS file
 import Header from './components/Header';
 import NavBar from './components/NavBar';
@@ -10,6 +11,12 @@ import { courseData } from './data/courseData';
 function App() {
   return (
     <div className="App">
+      <Helmet>
+                <meta charSet="utf-8" />
+                <title>Course Website</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+                <meta name="description" content="Course wensite kiit" />
+            </Helmet>
       <SpeedInsights />
       <Header />
       <section className="navbar-section">
