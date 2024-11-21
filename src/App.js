@@ -29,6 +29,8 @@ function App() {
           ))}
         </div>
       </section>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2751902585388676"
+     crossorigin="anonymous"></script>
     </div>
   );
 }
