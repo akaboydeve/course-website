@@ -18,6 +18,7 @@ function App() {
                 <meta name="description" content="Course wensite kiit" />
             </Helmet>
       <SpeedInsights />
+    <script src="https://publisher.linkvertise.com/cdn/linkvertise.js"></script><script>linkvertise(593345, {whitelist: [], blacklist: [""]});</script>
       <Header />
       <section className="navbar-section">
         <NavBar />
